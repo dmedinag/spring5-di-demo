@@ -15,7 +15,6 @@ public class PrimaryGermanGreetingService implements GreetingService {
 
     private GreetingRepository greetingRepository;
 
-    @Autowired
     public PrimaryGermanGreetingService(GreetingRepository greetingRepository) {
         this.greetingRepository = greetingRepository;
     }
